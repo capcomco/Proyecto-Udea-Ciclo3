@@ -1,6 +1,6 @@
 Luz Estela Gomez Romero
-CC: 1033805832
-Correo: luzgomezr98@gmail.com
+CC 1033805832
+Correo luzgomezr98@gmail.com
 Estudiante
-EQUIPO: TEAMWORK-U-ALPHA
-Rol: Administrador Base de Datos
+EQUIPO TEAMWORK-U-ALPHA
+Rol Administrador Base de Datos
