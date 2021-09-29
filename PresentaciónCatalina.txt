@@ -1,9 +1,0 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Presentación<title/>
-</head>
-<body>
-<p>Angie Catalina Quintero Rivera <br/> ancquinterori@unal.edu.co </br> angiecatalinaquintero@gmail.com></p>
-</body>
