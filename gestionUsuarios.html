@@ -9,25 +9,142 @@
 </head>
 <body>
     <header class="navbar">
-        <div><a href="index.html">Volver</a>
+        <div><a href="./index.html">Home</a>
+            <a href="./maestroVentas">Ventas</a>
+            <a href="./producto">Productos</a>
+            <a href="./gestionUsuarios.html">Usuarios</a>
              <a  href="#">Salir</a>           
-        <div>
+        </div>
         <center><h2>FORMULARIO DE GESTION DE USUARIOS</h2></center>
-        <br></div>  
+        <br>  
     </header>
     <br><br><br>
-    <div class="breedCardContainer">
-        <h3 >Listado de usuarios</h3>
-        <button class="button mainButton" onclick="location.href ='./tablaUsuarios.html'">Listado</button><br>
-        
-        <h3>Actualizar datos de usuario</h3>
-        <button class="button mainButton">Actualizar</button><br>
-        
-        <h3>Crear usuario</h3>
-        <button class="button mainButton" onclick="location.href ='./crearUsuario.html'">Nuevo usuario</button><br>
-        <br>
-    </div>
     
+    <center>
+        <h2>Listado de usuarios</h2>
+    </center>
+    <div>
+        <table class="tabla" border=1px>          
+            <tr>
+                <th>Cedula</th>
+                <th>Nombre</th>
+                <th>Correo Electronico</th>
+                <th>Rol Usuario</th>
+                <th>Estado</th>
+            </tr>            
+            <tr>
+                <td>79401078</td>
+                <td>Omar Ricardo Gelves</td>
+                <td>omargelves@yahoo.com</td>
+                <td>
+                    <select class="buscar" name="usu">
+                        <option value="">-Seleccione Rol</option>
+                        <option value="Administrador">Administrador</option>
+                        <option value="Vendedor">Vendedor</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                    </td>
+                <td>
+                    <select class="buscar" name="rol">
+                        <option value="">-Seleccione Estado</option>
+                        <option value="Pendiente">Pendiente</option>
+                        <option value="No autorizado">No autorizado</option>
+                        <option value="Autorizado">Autorizado</option>
+                    </select>
+                </td>
+                <td><button>Actualizar</button></td>
+            </tr>
+            <tr>
+                <td>11990778</td>
+                <td>Diana Espinosa</td>
+                <td>diana@gmail.com</td>
+                <td>
+                <select class="buscar" name="usu">
+                    <option value="">-Seleccione Rol</option>
+                    <option value="Administrador">Administrador</option>
+                    <option value="Vendedor">Vendedor</option>
+                    <option value="Otro">Otro</option>
+                </select>
+                </td>
+                <td>
+                    <select class="buscar" name="rol">
+                        <option value="">-Seleccione Estado</option>
+                        <option value="Pendiente">Pendiente</option>
+                        <option value="No autorizado">No autorizado</option>
+                        <option value="Autorizado">Autorizado</option>
+                    </select>
+                </td>
+                <td><button>Actualizar</button></td>
+            </tr>
+            <tr>
+                <td>130255555</td>
+                <td>Juan Rodriguez</td>
+                <td>Juanro@yahoo.com</td>
+                <td>
+                    <select class="buscar" name="usu">
+                        <option value="">-Seleccione Rol</option>
+                        <option value="Administrador">Administrador</option>
+                        <option value="Vendedor">Vendedor</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="buscar" name="rol">
+                        <option value="">-Seleccione Estado</option>
+                        <option value="Pendiente">Pendiente</option>
+                        <option value="No autorizado">No autorizado</option>
+                        <option value="Autorizado">Autorizado</option>
+                    </select>
+                </td>
+                <td><button>Actualizar</button></td>
+            </tr>
+            <tr>
+                <td>130249555</td>
+                <td>Luisa Guzman</td>
+                <td>Luisa@yahoo.com</td>
+                <td>
+                    <select class="buscar" name="usu">
+                        <option value="">-Seleccione Rol</option>
+                        <option value="Administrador">Administrador</option>
+                        <option value="Vendedor">Vendedor</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="buscar" name="rol">
+                        <option value="">-Seleccione Estado</option>
+                        <option value="Pendiente">Pendiente</option>
+                        <option value="No autorizado">No autorizado</option>
+                        <option value="Autorizado">Autorizado</option>
+                    </select>
+                </td>
+                <td><button>Actualizar</button></td>
+            </tr>
+            <tr>
+                <td>101256755</td>
+                <td>Ana Lpez</td>
+                <td>ana@yahoo.com</td>
+                <td>
+                    <select class="buscar" name="usu">
+                        <option value="">-Seleccione Rol</option>
+                        <option value="Administrador">Administrador</option>
+                        <option value="Vendedor">Vendedor</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="buscar" name="rol">
+                        <option value="">-Seleccione Estado</option>
+                        <option value="Pendiente">Pendiente</option>
+                        <option value="No autorizado">No autorizado</option>
+                        <option value="Autorizado">Autorizado</option>
+                    </select>
+                </td>
+                <td><button>Actualizar</button></td>
+            </tr>
+        </table>
+    </div><br>
+    <button class="mainButton button">Ver lista actualizada</button>
     
 </body>
 </html>
