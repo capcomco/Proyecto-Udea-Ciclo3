@@ -33,6 +33,7 @@
   <body>
     <div>
       <header class="container">
+        <!--Barra de Navegación-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
           <a class="navbar-brand" href="#">Muebles</a>
           <button
@@ -50,25 +51,29 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#"
-                  >Home</a
+                <a class="nav-link" href="producto.html">Crear Producto</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="maestroproductos.html"
+                  >Lista Productos</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Ventas</a>
+                <a class="nav-link" href="ingresarVenta.html">Crear Venta</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Productos<span class="sr-only">(actual)</span></a>
+                <a class="nav-link" href="maestroventas.html">Lista Ventas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Usuarios</a>
+                <a class="nav-link" href="gestionUsuario.html">Usuarios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Salir</a>
+                <a class="nav-link" href="login.html">Salir</a>
               </li>
             </ul>
           </div>
         </nav>
+        <!--Fin de la Barra de Navegación-->
       </header>
       <div class="container">
         <center><h1>Listado de Productos</h1></center>
@@ -76,11 +81,10 @@
       <div class="container">
         <form action="">
           <label for="busqueda">Buscar por:</label><br />
-          <input list="busqueda" name="busqueda" />
-          <datalist id="busqueda">
-            <option value="ID Producto"></option>
-            <option value="Descripción"></option>
-            <br />
+          <select class="form-select form-select-sm form" style="width: 150px">
+            <option>ID Producto</option>
+            <option>Descripción</option>
+          </select>
           <label for="dato">Digite el valor a buscar:</label><br />
           <input type="text" name="dato" id="dato" />
           <input type="button" value="Buscar" />
@@ -90,9 +94,7 @@
 
       <div class="container">
         <div class="container">
-          <a class="btn btn-primary" href="https://www.google.com"
-            >Crear Producto</a
-          >
+          <a class="btn btn-primary" href="producto.html">Crear Producto</a>
         </div>
 
         <table class="table table-success table-striped">
@@ -119,7 +121,7 @@
               </td>
               <td><button>Actualizar</button></td>
             </tr>
-            
+
             <tr>
               <td>5020</td>
               <td>Biblioteca 2 X 1</td>
@@ -133,7 +135,7 @@
               </td>
               <td><button>Actualizar</button></td>
             </tr>
-            
+
             <tr>
               <td>5030</td>
               <td>Sofa Stelar</td>
@@ -147,7 +149,7 @@
               </td>
               <td><button>Actualizar</button></td>
             </tr>
-            
+
             <tr>
               <td>5040</td>
               <td>Silla Otomana Blanca</td>
@@ -161,7 +163,7 @@
               </td>
               <td><button>Actualizar</button></td>
             </tr>
-            
+
             <tr>
               <td>5050</td>
               <td>Gabinete Cocina Imperial</td>
@@ -175,7 +177,7 @@
               </td>
               <td><button>Actualizar</button></td>
             </tr>
-            
+
             <tr>
               <td>5060</td>
               <td>Comedor Completo 6 Puestos</td>
@@ -189,7 +191,6 @@
               </td>
               <td><button>Actualizar</button></td>
             </tr>
-            
           </tbody>
         </table>
       </div>
