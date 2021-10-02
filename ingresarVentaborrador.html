@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/estilos.css" />
+    <link rel="shortcut icon" href="./media/favicon.png" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/d4cd33a1a3.js" crossorigin="anonymous"></script>
+    <title>Gestor de Ventas</title>
+  </head>
+  <body>
+    <header>
+        <ul class="navbar">
+            <li>
+                <a href="index.html" class="botonGenerico mainButton">Inicio</a>
+              </li>
+        </ul>
+      </header>
+    <main>
+      <section>
+        <h1>Gestor de Ventas</h1>
+        <ul class="nav">
+          <li>
+            <button class="botonGenerico mainButton">ID Venta</button>
+            <input placeholder=""                    
+          </li>
+          <li>
+            <button class="botonGenerico mainButton">Valor Venta</button>
+            <input placeholder="" />
+          </li>
+          <li>
+            <button class="botonGenerico mainButton">Cantidad</button>
+            <input placeholder="" />
+          </li>
+          <li>
+            <button class="botonGenerico mainButton">Precio Unitario</button>
+            <input placeholder="" />
+          </li>
+          <li>
+            <button class="botonGenerico mainButton">Fecha de Venta</button>
+            <input placeholder="" />
+          </li>
+          <li>
+            <button class="botonGenerico mainButton">ID Cliente</button>
+            <input placeholder="" />
+          </li>
+          <li>
+            <button class="botonGenerico mainButton">Nombre Cliente</button>
+            <input placeholder="" />
+          </li>
+          <li>
+            <button class="botonGenerico mainButton">Encargado</button>
+            <input placeholder="" />
+          </li>
+          <form action="checkVenta.html" target="_blank" >
+            <input type="submit" value="Guardar cambios" button class="botonGenerico secondaryButton">
+          </form>
+        </ul>
+      </section>
+      <section>
+        <div class="container">
+          <div class="row">
+             <div class='col-sm-6'>
+                <div class="form-group">
+                   <div class='input-group date' id='datetimepicker3'>
+                      <input type='text' class="form-control" />
+                      <span class="input-group-addon">
+                      <span class="glyphicon glyphicon-time"></span>
+                      </span>
+                   </div>
+                </div>
+             </div>
+             <script type="text/javascript">
+                $(function () {
+                    $('#datetimepicker3').datetimepicker({
+                        format: 'LT'
+                    });
+                });
+             </script>
+          </div>
+       </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
