@@ -60,6 +60,7 @@ const Login = () => {
                             <button class="Correo" ><img src="imagenes/google.png" width="100px" alt = 'imagen google'/></button>
                     </div>
                     </form>
+                    <a href="/menu" class="btn btn-primary">Menu</a>Boton provisional: Pues las funciones para el login presentan errores en React
                     </div>
                     </div>
                     </div>
