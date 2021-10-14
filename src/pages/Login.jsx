@@ -10,16 +10,13 @@ const Login = () => {
         <script>
             let i = 1;
             function comprobar() {
-                let x = document.forms["forma"]["usuario"].value;
-            let y = document.forms["forma"]["password"].value;
+            let x = document.forms["forma"]["usuario"].value;
+            let y  = document.forms["forma"]["password"].value;
             if (x == "USUARIO" && y == "CLAVE123") {
                 window.location.href = "menu";
-          } else if (i < 3) {
-                alert("Datos incorrectos, intente nuevamente");
+          } else if (i < 3) {alert("Datos incorrectos, intente nuevamente");
             i++;
-          } else {
-                alert("Número Máximo de Intentos");
-          }
+          } else {alert("Número Máximo de Intentos");}
         }
         </script>*/}
 
