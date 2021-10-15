@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
     return <div >        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href>Muebles</a>
+        <a class="navbar-brand" href="../menu">Muebles</a>
         <button
             class="navbar-toggler"
             type="button"
