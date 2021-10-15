@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
     return <div >        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">Muebles</a>
+        <a class="navbar-brand" href>Muebles</a>
         <button
             class="navbar-toggler"
             type="button"
@@ -18,21 +18,21 @@ const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="admin/productos">Crear Producto</a>
+                    <a class="nav-link" href="../admin/productos">Crear Producto</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="maestroproductos"
+                    <a class="nav-link" href="../maestroproductos"
                     >Lista Productos</a
                     >
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="ingresarVenta">Crear Venta</a>
+                    <a class="nav-link" href="../ingresarVenta">Crear Venta</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="maestroventas">Lista Ventas</a>
+                    <a class="nav-link" href="../maestroventas">Lista Ventas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="gestionUsuario">Usuarios</a>
+                    <a class="nav-link" href="../gestionUsuario">Usuarios</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../">Salir</a>

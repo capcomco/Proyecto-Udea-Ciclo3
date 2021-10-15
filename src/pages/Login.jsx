@@ -21,7 +21,7 @@ const Login = () => {
         </script>*/}
 
         <div class="contenedor">
-            <div class="avatar"><img src="avatar.png" width="150px" alt = 'avatar'/></div>
+            <div class="avatar"><img src="avatar.png" width="150px" alt = ' avatar'/></div>
             <div class="login-container">
                 <div class="register">
                     <h1>Registrarse</h1>
@@ -31,7 +31,7 @@ const Login = () => {
                         <input type="password" placeholder="Contraseña" class="pass" required="true" />
                         <input type="password" placeholder="Confirmar Contraseña" class="repass" required="true" />
                         <input type="submit" class="submit" value="REGISTRARSE" />
-                        <button class="Correo"><img src="imagenes/google.png" width="100px" /></button>
+                        <button class="Correo"><img src="imagenes/google.png" alt ='Imagen google' width="100px" /></button>
                     </form>
                 </div>
 
@@ -48,7 +48,7 @@ const Login = () => {
                     <input type ="password" id="password" name="password" required="true" placeholder="Contraseña"/>
                     <br/>
                     <br/>
-                    <a href="#">¿Olvidaste tu contraseña?</a>
+                    <a href>¿Olvidaste tu contraseña?</a>
                     </div>
                     <div class ="elemento">
                     <br/>
@@ -56,7 +56,7 @@ const Login = () => {
                     
                             <button class="Correo" ><img src="imagenes/google.png" width="100px" alt = 'imagen google'/></button>
                     </div>
-                    </form>
+                    </form><br/><br/>
                     <a href="/menu" class="btn btn-primary">Menu</a>Boton provisional: Pues las funciones para el login presentan errores en React
                     </div>
                     </div>
